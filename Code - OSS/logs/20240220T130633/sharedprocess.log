@@ -1,0 +1,20 @@
+2024-02-20 13:06:41.267 [info] Getting Manifest... pkief.material-icon-theme
+2024-02-20 13:06:42.567 [info] Installing extension: pkief.material-icon-theme
+2024-02-20 13:06:45.042 [error] Could not load vsce-sign module Cannot find module 'node-vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-02-20 13:06:45.051 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-02-20 13:06:46.089 [info] Extracted extension to file:///home/fort/.vscode-oss/extensions/pkief.material-icon-theme-4.34.0-universal: pkief.material-icon-theme
+2024-02-20 13:06:46.100 [info] Renamed to /home/fort/.vscode-oss/extensions/pkief.material-icon-theme-4.34.0-universal
+2024-02-20 13:06:46.104 [info] Extracting extension completed. pkief.material-icon-theme
+2024-02-20 13:06:46.119 [info] Extension installed successfully: pkief.material-icon-theme
+2024-02-20 13:06:46.127 [info] Marked extension as uninstalled pkief.material-icon-theme-4.33.0-universal
+2024-02-20 13:06:46.197 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fort/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fort/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)

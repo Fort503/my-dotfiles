@@ -1,0 +1,108 @@
+2024-02-09 10:05:58.798 [info] Default formatter is set to null for workspace /home/fort/IAChessMate
+2024-02-09 10:05:58.798 [info] Test server listening.
+2024-02-09 10:05:58.798 [info] > conda info --json
+2024-02-09 10:05:58.798 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:05:58.800 [info] Found: /bin/python --> /bin/python3.11
+2024-02-09 10:05:58.802 [info] Found: /bin/python3 --> /bin/python3.11
+2024-02-09 10:05:58.802 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:05:58.802 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:05:58.802 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:05:58.802 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:05:58.802 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:05:58.802 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:05:58.803 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-02-09 10:05:58.803 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-09 10:05:58.803 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-09 10:05:58.803 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-09 10:05:58.837 [info] Found: /sbin/python --> /sbin/python3.11
+2024-02-09 10:05:58.837 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-02-09 10:05:58.838 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-02-09 10:05:58.846 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-02-09 10:05:58.846 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-02-09 10:05:58.846 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-02-09 10:05:58.907 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-02-09 10:05:58.908 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-02-09 10:05:58.908 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-02-09 10:05:58.943 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/interpreterInfo.py
+2024-02-09 10:05:58.971 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/interpreterInfo.py
+2024-02-09 10:05:59.064 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/interpreterInfo.py
+2024-02-09 10:05:59.083 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/pythonFiles/interpreterInfo.py
+2024-02-09 10:05:59.191 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 470ms, has a falsy return value, Arg 1: <Uri:/home/fort/IAChessMate>, Arg 2: {"started":1707494758600}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51177)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24126)
+  	at w.activate (/home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:773684)
+  	at /home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:2460
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:2450)]
+]
+2024-02-09 10:05:59.191 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51177)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24126)
+	at w.activate (/home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:773684)
+	at /home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:2450)]
+2024-02-09 10:05:59.191 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51177)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24126)
+	at w.activate (/home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:773684)
+	at /home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/fort/.vscode-oss/extensions/ms-python.python-2024.0.1-universal/out/client/extension.js:2:2450)]
+2024-02-09 10:05:59.193 [info] Python interpreter path: /bin/python
+2024-02-09 10:05:59.220 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-09 10:06:01.059 [info] Starting Jedi language server for IAChessMate.
+2024-02-09 10:06:36.461 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:07:06.726 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:07:17.614 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:30:47.944 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:30:58.803 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:31:07.090 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:31:11.830 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:31:49.454 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:32:44.799 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:32:49.525 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:34:04.087 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:34:41.341 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:34:43.974 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:35:12.589 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:35:56.531 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:36:08.147 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:36:27.584 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:36:57.402 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:37:13.885 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:37:20.153 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:37:42.925 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:37:54.086 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:38:09.761 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:40:22.511 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:40:22.602 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:40:47.523 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:41:17.187 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:41:19.033 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:41:19.786 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:42:55.400 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:54:15.194 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:54:19.629 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:54:55.626 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:54:57.670 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:00.852 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:01.697 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:07.736 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:16.093 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:18.531 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:19.875 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:21.156 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:36.045 [info] Send text to terminal: /bin/python /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:46.081 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:54.466 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:55:56.423 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py
+2024-02-09 10:57:15.990 [info] Discover tests for workspace name: IAChessMate - uri: /home/fort/IAChessMate/chess.py

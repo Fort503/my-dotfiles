@@ -1,0 +1,6 @@
+[proc] Ejecutando el comando: cmake --version
+[proc] Error en el comando: cmake --version falló con el error: Error: spawn cmake ENOENT
+[proc] Ejecutando el comando: cmake -E capabilities
+[proc] Error en el comando: cmake -E capabilities falló con el error: Error: spawn cmake ENOENT
+[variant] Se cargó un nuevo conjunto de variantes.
+[kit] Se han cargado correctamente 2 kits de /home/fort/.local/share/CMakeTools/cmake-tools-kits.json

@@ -1,0 +1,20 @@
+2024-02-20 13:06:39.345 [info] Log level: Info
+2024-02-20 13:06:39.345 [info] Validating found git in: "git"
+2024-02-20 13:06:39.345 [info] Using git "2.43.2" from "git"
+2024-02-20 13:06:39.345 [info] > git rev-parse --show-toplevel [23ms]
+2024-02-20 13:06:39.345 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2024-02-20 13:06:39.345 [info] Open repository: /home/fort/Flower
+2024-02-20 13:06:39.390 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-20 13:06:39.390 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-20 13:06:39.395 [info] > git config --get commit.template [29ms]
+2024-02-20 13:06:39.425 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-02-20 13:06:39.448 [warning] ENOENT: no such file or directory, open '/home/fort/Flower/.git/refs/remotes/origin/main'
+2024-02-20 13:06:39.456 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-02-20 13:06:39.488 [info] > git status -z -uall [8ms]
+2024-02-20 13:06:39.518 [info] > git config --get commit.template [1ms]
+2024-02-20 13:06:39.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-20 13:06:39.544 [warning] ENOENT: no such file or directory, open '/home/fort/Flower/.git/refs/remotes/origin/main'
+2024-02-20 13:06:39.546 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-20 13:06:39.561 [info] > git status -z -uall [3ms]
+2024-02-20 13:06:40.008 [info] > git check-ignore -v -z --stdin [3ms]

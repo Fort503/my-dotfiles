@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "'Cascadia code'",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false
+}

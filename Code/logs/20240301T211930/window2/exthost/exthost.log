@@ -1,0 +1,28 @@
+2024-03-01 21:31:00.484 [info] Extension host with pid 44295 started
+2024-03-01 21:31:00.681 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-01 21:31:00.799 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-01 21:31:00.840 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-01 21:31:00.997 [info] Eager extensions activated
+2024-03-01 21:31:01.080 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:01.088 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:01.121 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:01.186 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:01.294 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:01.313 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:17.166 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-01 21:31:17.221 [info] Extension host with pid 44295 exiting with code 0
+2024-03-01 21:31:19.285 [info] Extension host with pid 44343 started
+2024-03-01 21:31:19.285 [info] Skipping acquiring lock for /home/fort/.config/Code/User/workspaceStorage/7107778fd645dd56436882ab8c8b9244.
+2024-03-01 21:31:19.394 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-01 21:31:19.433 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-01 21:31:19.519 [info] Eager extensions activated
+2024-03-01 21:31:19.545 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:19.550 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:19.568 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:19.584 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:23.444 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-01 21:31:23.570 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:23.642 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-01 21:31:26.197 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-01 21:32:34.015 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-01 21:32:34.046 [info] Extension host with pid 44343 exiting with code 0

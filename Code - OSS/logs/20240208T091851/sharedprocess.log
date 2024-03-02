@@ -1,0 +1,20 @@
+2024-02-08 09:19:00.142 [info] Getting Manifest... danielpinto8zz6.c-cpp-compile-run
+2024-02-08 09:19:02.000 [info] Installing extension: danielpinto8zz6.c-cpp-compile-run
+2024-02-08 09:19:04.251 [error] Could not load vsce-sign module Cannot find module 'node-vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-02-08 09:19:04.259 [info] Extension signature verification is not done: danielpinto8zz6.c-cpp-compile-run
+2024-02-08 09:19:04.498 [info] Extracted extension to file:///home/fort/.vscode-oss/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58-universal: danielpinto8zz6.c-cpp-compile-run
+2024-02-08 09:19:04.509 [info] Renamed to /home/fort/.vscode-oss/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.58-universal
+2024-02-08 09:19:04.512 [info] Extracting extension completed. danielpinto8zz6.c-cpp-compile-run
+2024-02-08 09:19:04.526 [info] Extension installed successfully: danielpinto8zz6.c-cpp-compile-run
+2024-02-08 09:19:04.533 [info] Marked extension as uninstalled danielpinto8zz6.c-cpp-compile-run-1.0.50-universal
+2024-02-08 09:19:04.602 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fort/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fort/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)

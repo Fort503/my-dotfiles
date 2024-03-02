@@ -1,0 +1,44 @@
+2024-02-14 21:07:26.980 [info] Log level: Info
+2024-02-14 21:07:26.980 [info] Validating found git in: "git"
+2024-02-14 21:07:26.980 [info] Using git "2.43.1" from "git"
+2024-02-14 21:07:26.980 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-14 21:07:26.980 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-14 21:07:26.980 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-14 21:07:26.980 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-14 21:07:26.980 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-14 21:07:26.980 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-14 21:07:26.980 [info] > git rev-parse --show-toplevel [18ms]
+2024-02-14 21:07:26.980 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-14 21:07:30.260 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-14 21:07:30.260 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-14 21:07:48.330 [info] Log level: Info
+2024-02-14 21:07:48.330 [info] Validating found git in: "git"
+2024-02-14 21:07:48.330 [info] Using git "2.43.1" from "git"
+2024-02-14 21:07:48.330 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-14 21:07:48.347 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-14 21:07:48.369 [info] Open repository: /home/fort/Flower
+2024-02-14 21:07:48.396 [info] > git config --get commit.template [6ms]
+2024-02-14 21:07:48.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-02-14 21:07:48.433 [warning] ENOENT: no such file or directory, open '/home/fort/Flower/.git/refs/remotes/origin/main'
+2024-02-14 21:07:48.435 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-14 21:07:48.457 [info] > git status -z -uall [3ms]
+2024-02-14 21:07:48.491 [info] > git config --get commit.template [4ms]
+2024-02-14 21:07:48.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [101ms]
+2024-02-14 21:07:48.622 [warning] ENOENT: no such file or directory, open '/home/fort/Flower/.git/refs/remotes/origin/main'
+2024-02-14 21:07:48.627 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-02-14 21:07:48.644 [info] > git status -z -uall [5ms]
+2024-02-14 21:07:48.916 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-14 21:07:50.212 [info] > git show --textconv :index.html [31ms]
+2024-02-14 21:07:50.223 [info] > git ls-files --stage -- /home/fort/Flower/index.html [12ms]
+2024-02-14 21:07:50.277 [info] > git cat-file -s 2e745eeb565b319a64050239a695785ade7621a1 [13ms]
+2024-02-14 21:08:08.090 [info] > git show --textconv :style.scss [35ms]
+2024-02-14 21:08:08.100 [info] > git ls-files --stage -- /home/fort/Flower/style.scss [9ms]
+2024-02-14 21:08:08.120 [info] > git cat-file -s 4ca29acbeeecca786973f63d7db312b452e49d6c [5ms]
+2024-02-14 21:08:46.994 [info] > git show --textconv :README.md [22ms]
+2024-02-14 21:08:47.004 [info] > git ls-files --stage -- /home/fort/Flower/README.md [10ms]
+2024-02-14 21:08:47.055 [info] > git cat-file -s 0bd9ce188d79cb194a9036e5bf066c2ea4749294 [5ms]

@@ -1,0 +1,46 @@
+[proc] Ejecutando el comando: cmake --version
+[proc] Error en el comando: cmake --version falló con el error: Error: spawn cmake ENOENT
+[proc] Ejecutando el comando: cmake -E capabilities
+[proc] Error en el comando: cmake -E capabilities falló con el error: Error: spawn cmake ENOENT
+[variant] Se cargó un nuevo conjunto de variantes.
+[kit] Se detectó un cambio de la versión de definición de los kits de undefined a 2. Los kits se están examinando en modo silencioso.
+[proc] Ejecutando el comando: /bin/c89-gcc -v
+[proc] Ejecutando el comando: /bin/c99-gcc -v
+[proc] Ejecutando el comando: /bin/gcc -v
+[proc] Ejecutando el comando: /bin/gcc-11 -v
+[proc] Ejecutando el comando: /bin/gcc-12 -v
+[proc] Ejecutando el comando: /bin/x86_64-linux-gnu-gcc -v
+[proc] Ejecutando el comando: /bin/x86_64-linux-gnu-gcc-11 -v
+[proc] Ejecutando el comando: /bin/x86_64-linux-gnu-gcc-12 -v
+[proc] Ejecutando el comando: /usr/bin/c89-gcc -v
+[proc] Ejecutando el comando: /usr/bin/c99-gcc -v
+[proc] Ejecutando el comando: /usr/bin/gcc -v
+[proc] Ejecutando el comando: /usr/bin/gcc-11 -v
+[proc] Ejecutando el comando: /usr/bin/gcc-12 -v
+[proc] Ejecutando el comando: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Ejecutando el comando: /usr/bin/x86_64-linux-gnu-gcc-11 -v
+[proc] Ejecutando el comando: /usr/bin/x86_64-linux-gnu-gcc-12 -v
+[proc] Ejecutando el comando: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Ejecutando el comando: /usr/bin/gcc -v
+[proc] Ejecutando el comando: /usr/bin/c99-gcc -v
+[proc] Ejecutando el comando: /usr/bin/c89-gcc -v
+[proc] Ejecutando el comando: /bin/x86_64-linux-gnu-gcc -v
+[proc] Ejecutando el comando: /bin/gcc -v
+[proc] Ejecutando el comando: /bin/c99-gcc -v
+[proc] Ejecutando el comando: /bin/c89-gcc -v
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 12.3.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 12.3.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 12.3.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 11.4.0 x86_64-linux-gnu
+[kit] Kit encontrado (De confianza): GCC 12.3.0 x86_64-linux-gnu

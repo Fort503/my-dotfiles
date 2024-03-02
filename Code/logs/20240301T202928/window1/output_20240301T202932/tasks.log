@@ -1,0 +1,18 @@
+Error: the task 'C_Cpp_Runner: Build' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,/bin/bash,-c,g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0 -c /home/fort/Documentos/GitHub/programacion-II-tareas/Tarea5/main.cpp -o ./build/Debug/main.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0   ./build/Debug/main.o -o ./build/Debug/outDebug,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C_Cpp_Runner: Build"
+}
+Error: the task 'C_Cpp_Runner: Build' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,/bin/bash,-c,g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0 -c /home/fort/Documentos/GitHub/programacion-II-tareas/Tarea5/main.cpp -o ./build/Debug/main.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0   ./build/Debug/main.o -o ./build/Debug/outDebug,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C_Cpp_Runner: Build"
+}

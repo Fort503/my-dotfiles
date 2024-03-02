@@ -1,0 +1,2 @@
+rutaImagenes = "${HOME}/walls"
+

@@ -1,0 +1,18 @@
+**** INICIANDO CONEXIÓN EN Fri Mar  1 11:50:17 2024
+
+mar 01 11:50:17 *	*** Looking up your ident...
+mar 01 11:50:17 *	*** Looking up your hostname...
+mar 01 11:50:18 *	Capacidades soportadas: account-notify account-tag away-notify batch cap-notify chghost echo-message extended-join extended-monitor inspircd.org/poison invite-notify labeled-response message-tags multi-prefix server-time standard-replies tls userhost-in-names 
+mar 01 11:50:18 *	Capacidades solicitadas: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time userhost-in-names 
+mar 01 11:50:18 *	*** Could not resolve your hostname: Domain not found; using your IP address (190.242.151.88) instead.
+mar 01 11:50:18 *	Capacidades reconocidas: account-notify account-tag away-notify cap-notify chghost extended-join invite-notify multi-prefix server-time userhost-in-names
+mar 01 11:50:18 *	*** Could not find your ident, using ~fort instead.
+**** FINALIZANDO CONEXIÓN EN Fri Mar  1 11:50:19 2024
+
+**** INICIANDO CONEXIÓN EN Fri Mar  1 11:50:19 2024
+
+mar 01 11:50:19 *	Welcome to the SpotChat IRC Network fort!~fort@190.242.151.88
+mar 01 11:50:19 *	Your host is harpy.de.SpotChat.org, running version InspIRCd-3
+mar 01 11:50:19 *	This server was created 21:15:05 Aug 22 2023
+mar 01 11:50:19 *	harpy.de.SpotChat.org InspIRCd-3 BDHIORSTWcdghikorswxz ACIJKMNOPQRSTYabceghiklmnopqrstvz :IJYabeghkloqv
+mar 01 11:50:19 *	ACCEPT=30 AWAYLEN=200 BOT=B CALLERID=g CASEMAPPING=ascii CHANLIMIT=#:20 CHANMODES=Ibeg,k,Jl,ACKMNOPQRSTcimnprstz CHANNELLEN=60 CHANTYPES=# ELIST=CMNTU EXCEPTS=e EXTBAN=,ACNOQRSTUcmwz :are supported by this server

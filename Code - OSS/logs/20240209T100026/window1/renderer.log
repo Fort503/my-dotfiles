@@ -1,0 +1,25 @@
+2024-02-09 10:00:28.937 [info] Started local extension host with pid 106319.
+2024-02-09 10:00:33.313 [info] [perf] Render performance baseline is 65ms
+2024-02-09 10:00:39.530 [error] Unable to read file '/home/fort/documentos/proyectos/cnrc/CNRC.py' (Error: File not modified since): Error: Unable to read file '/home/fort/documentos/proyectos/cnrc/CNRC.py' (Error: File not modified since)
+    at n.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:657:19875)
+    at n.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:657:19763)
+    at async f.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2203:42897)
+    at async f.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2203:42654)
+    at async L.Cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2192:13459)
+    at async L.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2192:11906)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2203:38766
+2024-02-09 10:04:17.047 [info] Started local extension host with pid 106999.
+2024-02-09 10:04:20.827 [info] [perf] Render performance baseline is 63ms
+2024-02-09 10:05:09.581 [error] Cancelled: Canceled
+    at re.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:782:32466)
+    at async re.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:782:29361)
+    at async ne (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:782:28369)
+    at async re.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:782:28590)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2741:11958)
+    at async de.Ac (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2677:22427)
+    at async de.lc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2677:14478)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2677:12777
+2024-02-09 10:05:21.227 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2024-02-09 10:05:21.228 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2024-02-09 10:05:57.659 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-02-09 10:05:57.699 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python

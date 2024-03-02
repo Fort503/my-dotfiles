@@ -1,0 +1,26 @@
+2024-02-16 08:03:38.035 [info] Log level: Info
+2024-02-16 08:03:38.035 [info] Validating found git in: "git"
+2024-02-16 08:03:38.035 [info] Using git "2.43.1" from "git"
+2024-02-16 08:03:38.035 [info] > git rev-parse --show-toplevel [156ms]
+2024-02-16 08:03:38.038 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-02-16 08:03:38.073 [info] Open repository: /home/fort/Flower
+2024-02-16 08:03:38.151 [info] > git config --get commit.template [10ms]
+2024-02-16 08:03:38.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-16 08:03:38.236 [warning] ENOENT: no such file or directory, open '/home/fort/Flower/.git/refs/remotes/origin/main'
+2024-02-16 08:03:38.238 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-16 08:03:38.262 [info] > git status -z -uall [11ms]
+2024-02-16 08:03:38.302 [info] > git config --get commit.template [10ms]
+2024-02-16 08:03:38.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-16 08:03:38.339 [warning] ENOENT: no such file or directory, open '/home/fort/Flower/.git/refs/remotes/origin/main'
+2024-02-16 08:03:38.340 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-16 08:03:38.355 [info] > git status -z -uall [4ms]
+2024-02-16 08:03:38.829 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-16 08:03:39.412 [info] > git show --textconv :README.md [21ms]
+2024-02-16 08:03:39.417 [info] > git ls-files --stage -- /home/fort/Flower/README.md [8ms]
+2024-02-16 08:03:39.440 [info] > git cat-file -s 0bd9ce188d79cb194a9036e5bf066c2ea4749294 [8ms]
+2024-02-16 08:03:52.953 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-16 08:03:52.953 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-16 08:04:07.596 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-16 08:04:07.596 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

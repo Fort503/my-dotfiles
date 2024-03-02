@@ -1,0 +1,112 @@
+19:07:11.457: Using EGL/X11
+19:07:11.458: CPU Name: Intel(R) Celeron(R) N4120 CPU @ 1.10GHz
+19:07:11.458: CPU Speed: 2487.272MHz
+19:07:11.458: Physical Cores: 4, Logical Cores: 4
+19:07:11.458: Physical Memory: 3485MB Total, 2695MB Free
+19:07:11.458: Kernel Version: Linux 6.6.7-arch1-1
+19:07:11.458: Distribution: "Arch Linux" Unknown
+19:07:11.458: Desktop Environment: bspwm
+19:07:11.458: Session Type: x11
+19:07:11.458: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:07:11.462: Qt Version: 6.6.1 (runtime), 6.6.1 (compiled)
+19:07:11.462: Portable mode: false
+19:07:11.540: OBS 30.0.2-1 (linux)
+19:07:11.540: ---------------------------------
+19:07:11.541: ---------------------------------
+19:07:11.541: audio settings reset:
+19:07:11.541: 	samples per sec: 48000
+19:07:11.541: 	speakers:        2
+19:07:11.541: 	max buffering:   960 milliseconds
+19:07:11.541: 	buffering type:  dynamically increasing
+19:07:11.546: ---------------------------------
+19:07:11.546: Initializing OpenGL...
+19:07:11.666: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 600 (GLK 2)
+19:07:11.667: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.2.1-arch1.2, shading language 4.60
+19:07:11.751: ---------------------------------
+19:07:11.751: video settings reset:
+19:07:11.751: 	base resolution:   1366x768
+19:07:11.751: 	output resolution: 1092x614
+19:07:11.751: 	downscale filter:  Bicubic
+19:07:11.751: 	fps:               60/1
+19:07:11.751: 	format:            NV12
+19:07:11.751: 	YUV mode:          Rec. 709/Partial
+19:07:11.751: NV12 texture support not available
+19:07:11.751: P010 texture support not available
+19:07:11.768: Audio monitoring device:
+19:07:11.768: 	name: Por defecto
+19:07:11.768: 	id: default
+19:07:11.768: ---------------------------------
+19:07:11.783: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:07:11.798: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:07:11.812: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:07:11.812: Failed to initialize module 'decklink.so'
+19:07:12.098: [pipewire] No captures available
+19:07:12.136: v4l2loopback not installed, virtual camera disabled
+19:07:12.266: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+19:07:12.266: FFmpeg VAAPI H264 encoding not supported
+19:07:12.267: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+19:07:12.267: FFmpeg VAAPI HEVC encoding not supported
+19:07:12.409: ---------------------------------
+19:07:12.410:   Loaded Modules:
+19:07:12.410:     text-freetype2.so
+19:07:12.410:     rtmp-services.so
+19:07:12.410:     obs-x264.so
+19:07:12.410:     obs-vst.so
+19:07:12.410:     obs-transitions.so
+19:07:12.410:     obs-qsv11.so
+19:07:12.410:     obs-outputs.so
+19:07:12.410:     obs-libfdk.so
+19:07:12.410:     obs-filters.so
+19:07:12.410:     obs-ffmpeg.so
+19:07:12.410:     linux-v4l2.so
+19:07:12.410:     linux-pulseaudio.so
+19:07:12.410:     linux-pipewire.so
+19:07:12.410:     linux-jack.so
+19:07:12.410:     linux-capture.so
+19:07:12.410:     linux-alsa.so
+19:07:12.410:     image-source.so
+19:07:12.410:     frontend-tools.so
+19:07:12.410:     decklink-output-ui.so
+19:07:12.410:     decklink-captions.so
+19:07:12.410: ---------------------------------
+19:07:12.410: ==== Startup complete ===============================================
+19:07:12.459: All scene data cleared
+19:07:12.459: ------------------------------------------------
+19:07:12.465: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+19:07:12.466: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+19:07:12.466: pulse-input: Started recording from 'alsa_output.pci-0000_00_0e.0.analog-stereo.monitor' (default)
+19:07:12.466: [Loaded global audio device]: 'Audio del escritorio'
+19:07:12.467: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+19:07:12.467: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+19:07:12.467: pulse-input: Started recording from 'alsa_input.pci-0000_00_0e.0.analog-stereo' (default)
+19:07:12.467: [Loaded global audio device]: 'Mic/Aux'
+19:07:12.469: xshm-input: Geometry 1366x768 @ 0,0
+19:07:12.479: Switched to scene 'Escena'
+19:07:12.479: ------------------------------------------------
+19:07:12.479: Loaded scenes:
+19:07:12.479: - scene 'Escena':
+19:07:12.479:     - source: 'Captura de pantalla (XSHM)' (xshm_input)
+19:07:12.479: ------------------------------------------------
+19:07:12.880: [rtmp-services plugin] Successfully updated file 'services.json' (version 240)
+19:07:12.880: [rtmp-services plugin] Successfully updated package (version 240)
+19:07:13.184: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Audio del escritorio)
+19:07:13.184: 
+19:07:13.227: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+19:07:13.227: 
+19:07:19.332: ---------------------------------
+19:07:19.332: [x264 encoder: 'simple_video_stream'] preset: veryfast
+19:07:19.339: [x264 encoder: 'simple_video_stream'] settings:
+19:07:19.339: 	rate_control: CBR
+19:07:19.339: 	bitrate:      2500
+19:07:19.339: 	buffer size:  2500
+19:07:19.339: 	crf:          23
+19:07:19.339: 	fps_num:      60
+19:07:19.339: 	fps_den:      1
+19:07:19.339: 	width:        1092
+19:07:19.339: 	height:       614
+19:07:19.339: 	keyint:       250
+19:07:19.339: 
+19:07:19.355: libfdk_aac encoder created
+19:07:19.355: libfdk_aac bitrate: 160, channels: 2
+19:07:19.357: ==== Recording Start ===============================================
+19:07:19.357: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/fort/2024-01-09 19-07-19.mp4'...
